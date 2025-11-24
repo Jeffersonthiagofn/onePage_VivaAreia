@@ -1,0 +1,77 @@
+footer {
+  background: #1a1a1a;
+  color: white;
+  padding: 4rem 2rem 2rem;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.footer-brand h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+ footer .logo {
+     display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+
+ }
+
+footer .logo img {
+     height: 50px;
+     width: 200px;
+ }
+
+.footer-brand p {
+  color: #999;
+  line-height: 1.8;
+}
+
+.footer-links h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  color: #999;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #c86933;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  border-top: 1px solid #333;
+  text-align: center;
+  color: #666;
+}
+
+.team-credits {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}

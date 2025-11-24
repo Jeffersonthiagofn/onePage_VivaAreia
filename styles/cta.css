@@ -1,0 +1,31 @@
+.cta-section {
+    padding: 6rem 2rem;
+    background: linear-gradient(135deg, #c86933, #a85528);
+    text-align: center;
+    color: white;
+}
+
+.cta-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.cta-section p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.95;
+}
+
+.cta-section .btn-primary {
+    background: white;
+    color: #c86933;
+    font-size: 1.2rem;
+    padding: 1.2rem 3rem;
+}
+
+.cta-section .btn-primary:hover {
+    background: #f5f5f5;
+    transform: scale(1.05);
+}
