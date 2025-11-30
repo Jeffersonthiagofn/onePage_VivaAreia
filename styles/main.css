@@ -9,13 +9,16 @@
 }
 
 .steps {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 3rem;
     margin-top: 4rem;
 }
 
 .step {
+    flex: 1 1 300px;
+    max-width: 350px;
     text-align: center;
     position: relative;
 }
@@ -81,13 +84,14 @@
 }
 
 .comparison {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 3rem;
     margin-top: 4rem;
 }
 
 .comparison-card {
+    flex: 1 1 450px;
     background: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
